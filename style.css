@@ -1,0 +1,38 @@
+* {
+  font-family: "Courrier New", "SauceCodePro Nerd Font";
+  box-sizing: border-box;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+section {
+  padding: 8px 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fc53c9;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 720px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 8px;
+}
+
+.card-content {
+  width: 100%;
+}
