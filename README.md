@@ -10,11 +10,11 @@ The website will consist of a main index page which will have links to a few rec
 
 ### Iteration 1: Initial Structure
 
-1. [] Create the **odin-recipes** directory
+1. [x] Create the **odin-recipes** directory
 
-1. [] Within the `/odin-recipes`, create an **index.html** file
+1. [x] Within the `/odin-recipes`, create an **index.html** file
 
-1. [] Fill it out with the usual boilerplate HTML and add an **h1** heading “Odin Recipes” to the body
+1. [x] Fill it out with the usual boilerplate HTML and add an **h1** heading “Odin Recipes” to the body
 
 ### Iteration 2: Recipe Page
 
