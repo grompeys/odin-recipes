@@ -46,4 +46,4 @@ The recipe page should have the following content:
 
 ### Iteration 5: Add Style
 
-1. [] Add css
+1. [] Add tailwindcss
