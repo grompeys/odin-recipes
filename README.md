@@ -1,7 +1,7 @@
 # odin-recipes
 
 Project: Recipes
-Foundations Course of [The Odin Project](https://theodinproject.com)
+Foundations Course of [The Odin Project](https://theodinproject.com)  
 [Instructions](https://theodinproject.com/lessons/foundations-recipes)
 
 ## Assignment
