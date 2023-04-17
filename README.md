@@ -40,9 +40,9 @@ The recipe page should have the following content:
 
 ### Iteration 4: Add More Recipes
 
-1. [] Add two more recipes with identical page structures to the recipe page you’ve already created.
+1. [x] Add two more recipes with identical page structures to the recipe page you’ve already created.
 
-1. [] Don’t forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren’t all on one line.
+1. [x] Don’t forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren’t all on one line.
 
 ### Iteration 5: Add Style
 
