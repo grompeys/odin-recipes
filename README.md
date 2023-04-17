@@ -18,13 +18,13 @@ The website will consist of a main index page which will have links to a few rec
 
 ### Iteration 2: Recipe Page
 
-1. [] Create a new directory within the **odin-recipes** directory and name it **recipes**.
+1. [x] Create a new directory within `/odin-recipes` and name it **recipes**.
 
-1. [] Create a new HTML file within the **recipes** directory and name it after the recipe it will contain. For example **lasagna.html**. You can use the name of your favorite dish or, if you need some inspiration, you can [find a recipe to use here](https://www.allrecipes.com/).
+1. [x] Create a new HTML file within `/odin-recipes` and name it after the recipe it will contain. For example **lasagna.html**. You can use the name of your favorite dish or, if you need some inspiration, you can [find a recipe to use here](https://www.allrecipes.com/).
 
-1. [] For now, just include an **h1** heading with the recipe’s name as its content.
+1. [x] For now, just include an **h1** heading with the recipe’s name as its content.
 
-1. [] Back in the **index.html** file, add a link to the recipe page you just created. The text of the link should again be the recipe name.
+1. [x] Back in the **index.html** file, add a link to the recipe page you just created. The text of the link should again be the recipe name.
 
 ### Iteration 3: Recipe Page Content
 
