@@ -5,54 +5,80 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Jackfruit Vegan Tacos</title>
+        <link rel="stylesheet" href="../style.css" />
     </head>
     <body>
-        <h1>Jackfruit Vegan Tacos</h1>
-        <img
-            src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5053996.jpg"
-            alt="Photo of a jackfruit tacos"
-        />
-
-        <h2>Description:</h2>
-        <p>
-            Jackfruit is a great vegan alternative to shredded chicken to use in
-            tacos. These jackfruit tacos are delicious and vegan! Choose your
-            favorite taco toppings, such as lettuce, tomato, cilantro, avocado,
-            vegan cheese, and vegan sour cream.
-        </p>
-
-        <h3>Ingredients:</h3>
-        <ul>
-            <li>
-                2 (20 ounce) cans jackfruit in brine - drained, rinsed, and cut
-                into bite-sized pieces
-            </li>
-            <li>1 tablespoon vegetable oil</li>
-            <li>1 tablespoon water, or more as needed</li>
-            <li>2 tablespoons taco seasoning mix, or to taste</li>
-            <li>4 taco shells</li>
-            <li>½ cup salsa, or to taste</li>
-        </ul>
-
-        <h3>Directions:</h3>
-        <ol>
-            <li>
-                <h4>Step 1</h4>
-                <p>
-                    Heat oil in a small saucepan over medium heat. Add
-                    jackfruit; cook and stir for 2 to 3 minutes. Add 1
-                    tablespoon water and taco seasoning; stir until well
-                    combined, about 1 minute. Add additional water 1 tablespoon
-                    at a time as needed.
-                </p>
-            </li>
-            <li>
-                <h4>Step 2</h4>
-                <p>
-                    Place a small amount of jackfruit in each taco shell; add 2
-                    tablespoons salsa.
-                </p>
-            </li>
-        </ol>
+        <header class="flex w-full justify-between items-baseline px-4 py-2">
+            <a href="../index.html" class="text-2xl font-bold inline-block"
+                >Odin Recipes</a
+            >
+        </header>
+        <main>
+            <div class="relative mx-auto max-w-screen-xl px-4 py-8">
+                <div class="grid grid-cols-1 gap-8 items-start md:grid-cols-2">
+                    <div class="sticky top-0">
+                        <h1 class="text-xl font-bold sm:text-2xl">
+                            Jackfruit Vegan Tacos
+                        </h1>
+                        <img
+                            src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5053996.jpg"
+                            alt="Photo of a jackfruit tacos"
+                            class="aspect-square w-full rounded-xl object-cover mt-4"
+                            width="1770"
+                        />
+                    </div>
+                    <div class="grid grid-cols-1 gap-4 items-start pt-10">
+                        <h2 class="font-medium">Description:</h2>
+                        <p>
+                            Jackfruit is a great vegan alternative to shredded
+                            chicken to use in tacos. These jackfruit tacos are
+                            delicious and vegan! Choose your favorite taco
+                            toppings, such as lettuce, tomato, cilantro,
+                            avocado, vegan cheese, and vegan sour cream.
+                        </p>
+                        <h3>Ingredients:</h3>
+                        <ul
+                            class="rounded border bg-gradient-to-br from-white to-primary/10 p-4 grid grid-cols-1 gap-2"
+                        >
+                            <li>
+                                2 (20 ounce) cans jackfruit in brine - drained,
+                                rinsed, and cut into bite-sized pieces
+                            </li>
+                            <li>1 tablespoon vegetable oil</li>
+                            <li>1 tablespoon water, or more as needed</li>
+                            <li>
+                                2 tablespoons taco seasoning mix, or to taste
+                            </li>
+                            <li>4 taco shells</li>
+                            <li>½ cup salsa, or to taste</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3 class="font-medium mt-8">Directions:</h3>
+                <ol class="grid grid-cols-1 gap-4 p-4 justify-items-center">
+                    <li
+                        class="rounded border shadow-sm p-4 max-w-[72ch] w-full"
+                    >
+                        <h4 class="font-medium">Step 1</h4>
+                        <p>
+                            Heat oil in a small saucepan over medium heat. Add
+                            jackfruit; cook and stir for 2 to 3 minutes. Add 1
+                            tablespoon water and taco seasoning; stir until well
+                            combined, about 1 minute. Add additional water 1
+                            tablespoon at a time as needed.
+                        </p>
+                    </li>
+                    <li
+                        class="rounded border shadow-sm p-4 max-w-[72ch] w-full"
+                    >
+                        <h4 class="font-medium">Step 2</h4>
+                        <p>
+                            Place a small amount of jackfruit in each taco
+                            shell; add 2 tablespoons salsa.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </main>
     </body>
 </html>
