@@ -7,13 +7,74 @@
         <title>Odin Recipes</title>
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
-        <h1>Odin Recipes</h1>
+    <body class="flex flex-col items-center">
+        <header class="flex w-full justify-between items-baseline px-4 py-2">
+            <h1 class="text-2xl font-bold inline-block">Odin Recipes</h1>
+        </header>
 
-        <a href="recipes/vegan-lasagna.html">Vegan Lasagna</a>
-        <a href="recipes/jackfuit-vegan-tacos.html">Jackfruit Vegan Tacos</a>
-        <a href="recipes/vegan-devils-food-cake.html"
-            >Vegan Devil's Food Cake</a
-        >
+        <main class="container">
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <a
+                    href="recipes/vegan-lasagna.html"
+                    class="rounded-md shadow-sm hover:shadow-primary block"
+                >
+                    <img
+                        src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5053996.jpg"
+                        alt="Photo of a jackfruit tacos"
+                        class="h-64 w-full object-cover sm:h-80 lg:h-96 rounded-t-md"
+                    />
+                    <h3
+                        class="mt-4 text-lg font-bold text-gray-900 sm:text-xl px-2"
+                    >
+                        Vegan Lasagna
+                    </h3>
+                    <p class="mt-2 max-w-sm text-gray-700 px-2">
+                        This lasagna is VERY good and is also a vegan recipe.
+                    </p>
+                </a>
+                <a
+                    href="recipes/jackfuit-vegan-tacos.html"
+                    class="rounded-md shadow-sm hover:shadow-primary block"
+                >
+                    <img
+                        src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5053996.jpg"
+                        alt="Photo of a jackfruit tacos"
+                        class="h-64 w-full object-cover sm:h-80 lg:h-96 rounded-t-md"
+                    />
+                    <h3
+                        class="mt-4 text-lg font-bold text-gray-900 sm:text-xl px-2"
+                    >
+                        Jackfruit Vegan Tacos
+                    </h3>
+                    <p class="mt-2 max-w-sm text-gray-700 px-2">
+                        Jackfruit is a great vegan alternative to shredded
+                        chicken to use in tacos. These jackfruit tacos are
+                        delicious and vegan! Choose your favorite taco toppings,
+                        such as lettuce, tomato, cilantro, avocado, vegan
+                        cheese, and vegan sour cream.
+                    </p>
+                </a>
+
+                <a
+                    href="recipes/vegan-devils-food-cake.html"
+                    class="rounded-md shadow-sm hover:shadow-primary block"
+                >
+                    <img
+                        src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3189690.jpg"
+                        alt="Photo of a chocolate cake"
+                        class="h-64 w-full object-cover sm:h-80 lg:h-96 rounded-t-md"
+                    />
+                    <h3
+                        class="mt-4 text-lg font-bold text-gray-900 sm:text-xl px-2"
+                    >
+                        Vegan Devil's Food Cake
+                    </h3>
+                    <p class="mt-2 max-w-sm text-gray-700 px-2">
+                        Everyone in my family, vegan and non-vegan, loves this
+                        cake! Frost with vegan buttercream or icing if desired.
+                    </p>
+                </a>
+            </div>
+        </main>
     </body>
 </html>
